@@ -43,7 +43,7 @@ formmm.onsubmit=(event)=>{
 
 // функция запрашивает данные о погоде 
 async function fetchWeather(city){
-    const url=`http://api.openweathermap.org/data/2.5/weather?q=${city}&lang=ru&units=metric&APPID=483f7cc145c4efc5f7411a867744ed88`
+    const url=`https://api.openweathermap.org/data/2.5/weather?q=${city}&lang=ru&units=metric&APPID=483f7cc145c4efc5f7411a867744ed88`
     try {
         const response=await fetch(url)
 
