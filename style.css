@@ -1,0 +1,156 @@
+html {
+    height: 100%;
+    
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    /* padding-left: 30%; */
+    align-items: center;
+    background-image: url('images/итоговая картинка.jpg');
+    background-size: cover;
+    display: flex;    
+    flex-direction:column;
+    flex-grow: 2;
+    
+
+
+	
+	}
+    form{
+        display: flex;
+        align-items: center;
+    
+        width: 200px;
+        margin-left: 55%;
+        margin-top:  3%;
+        
+        border-radius: 10px;
+        border: 3px solid black;
+
+        
+
+    }
+    
+    .btn-info svg{
+        
+        position : relative;
+        bottom: 1px; 
+       
+        
+    }
+.btn-info{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-control{
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-control:focus {
+    border: 1px solid #ced4da;
+    box-shadow: none;
+}
+
+
+
+.conteiner{
+
+    display: flex;
+    
+    /* border: black solid 3px; */
+    width: 50%;
+    flex-grow: inherit;
+    border-radius: 10px;
+    background-color: rgb(13 110 253 / 44%);
+    margin-top: 20px;
+    margin-bottom: 20px ;
+    color:antiquewhite;
+    text-align: center;
+    min-width: 700px;
+    max-height: 700px;
+   visibility: hidden;
+
+    
+}
+
+.flexxx{
+    display: flex;
+    flex-direction:row;
+    
+
+
+    /* border: black solid 3px; */
+}
+
+
+.alert {
+    align-self: flex-start;
+}
+.levo{
+    display:flex;
+    flex-direction:column;
+    /* border: red solid 3px; */
+    align-items: center;
+    flex-grow: 2;
+    justify-content:space-around;
+}
+.pravo{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    /* border: red solid 3px; */
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.seredina{
+    display:flex;
+    flex-direction: column;
+    /* border: green    solid 2px; */
+    flex-grow: 2;
+    justify-content: center;
+    align-items: center;
+
+}
+    
+  
+
+
+
+.icon{
+    width: 10%;
+    
+}
+img{
+    max-width: 40%;
+    min-width: 30%;
+}
+.flexxx-obshii{
+    display:flex;
+    flex-direction: column;
+    /* border:black solid 2px; */
+    align-items: center;
+    width: 95%; 
+    height: 40%; 
+    justify-content: center; 
+    border-radius: 10px;
+    background-color: #0009;
+    min-width: 50%;
+    
+
+}
+/*  */
+
+    /* https://code.mu/ru/markup/manual/css/property/background-size/ */
+
+        
+/* https://code.mu/ru/markup/manual/css/property/background-image/ */
+
+/* https://developer.mozilla.org/ru/docs/Web/CSS/background-image */
+
+
+
