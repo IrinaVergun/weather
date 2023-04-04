@@ -32,7 +32,9 @@ body{
         
 
     }
-    
+
+
+
     .btn-info svg{
         
         position : relative;
@@ -141,6 +143,93 @@ img{
     background-color: #0009;
     min-width: 50%;
     
+
+}
+@media screen and (max-width: 576px){
+.conteiner{
+display:flex;
+flex-direction: column;
+max-width: 100%;
+min-width: auto;
+max-height: initial;
+
+
+
+}
+.levo{
+    display:flex;
+    flex-direction: column;
+
+}
+.pravo{
+    display: flex;
+    flex-direction: column;
+}
+.seredina{
+    display: flex;
+    flex-direction: column;
+}
+.flexxx-obshii{
+    display:flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+html{
+height: auto;
+}
+body{
+    height: auto;
+}
+form{
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 90%;
+    min-height: 50px;
+    
+}
+.form-control{
+min-height:50px ;
+}
+.btn-info{
+    min-width:80px;
+    min-height: 50px;
+}
+
+img.bi.bi-binoculars{
+    min-width:30px;
+
+}
+.form-control{
+font-size: 25px;
+}
+.flexxx-1{
+    display: flex;
+order: 1;
+}
+
+.flexxx-2{
+    display: flex;
+order: 3;
+}
+.flexxx-3{
+    display: flex;
+    order: 2;
+
+}
+.flexxx-4{
+    display: flex;
+order: 4;
+}
+.flexxx-5{
+    display: flex;
+    margin-bottom: 15px;
+    order: 5;
+}
+
+
+
+
+
 
 }
 /*  */
