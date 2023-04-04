@@ -1,51 +1,38 @@
 html {
     height: 100%;
-    
 }
 
 body{
     height: 100%;
     margin: 0;
-    /* padding-left: 30%; */
     align-items: center;
     background-image: url('images/итоговая картинка.jpg');
     background-size: cover;
     display: flex;    
     flex-direction:column;
     flex-grow: 2;
-    
+}
 
+form{
+    display: flex;
+    align-items: center;    
+    width: 200px;
+    margin-left: 55%;
+    margin-top:  3%;
+    border-radius: 10px;
+    border: 3px solid black;
+}
 
-	
-	}
-    form{
-        display: flex;
-        align-items: center;
-    
-        width: 200px;
-        margin-left: 55%;
-        margin-top:  3%;
-        
-        border-radius: 10px;
-        border: 3px solid black;
+.btn-info svg{       
+    position : relative;
+    bottom: 1px; 
+}
 
-        
-
-    }
-
-
-
-    .btn-info svg{
-        
-        position : relative;
-        bottom: 1px; 
-       
-        
-    }
 .btn-info{
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
+
 .form-control{
     border-bottom-right-radius: 0;
     border-top-right-radius: 0;
@@ -56,13 +43,8 @@ body{
     box-shadow: none;
 }
 
-
-
-.conteiner{
-
+.container{
     display: flex;
-    
-    /* border: black solid 3px; */
     width: 50%;
     flex-grow: inherit;
     border-radius: 10px;
@@ -74,68 +56,53 @@ body{
     min-width: 700px;
     max-height: 700px;
    visibility: hidden;
-
-    
 }
 
-.flexxx{
+.flex{
     display: flex;
     flex-direction:row;
-    
-
-
-    /* border: black solid 3px; */
 }
-
 
 .alert {
     align-self: flex-start;
 }
-.levo{
+
+.left {
     display:flex;
     flex-direction:column;
-    /* border: red solid 3px; */
     align-items: center;
     flex-grow: 2;
     justify-content:space-around;
 }
-.pravo{
+
+.right{
     display: flex;
     flex-direction: column;
     flex-grow: 2;
-    /* border: red solid 3px; */
     justify-content: space-around;
     align-items: center;
-    
-    
 }
-.seredina{
+
+.middlle{
     display:flex;
     flex-direction: column;
-    /* border: green    solid 2px; */
     flex-grow: 2;
     justify-content: center;
     align-items: center;
-
 }
-    
-  
-
-
 
 .icon{
-    width: 10%;
-    
+    width: 10%;   
 }
+
 img{
     max-width: 40%;
     min-width: 40%;
-
 }
-.flexxx-obshii{
+
+.flex-general{
     display:flex;
     flex-direction: column;
-    /* border:black solid 2px; */
     align-items: center;
     width: 95%; 
     height: 40%; 
@@ -143,109 +110,98 @@ img{
     border-radius: 10px;
     background-color: #0009;
     min-width: 50%;
-    
-
 }
 
-img.bi.bi-binoculars{
+img.bi.bi-binoculars {
     min-width: 15px;
     margin-bottom: 4px;
 }
 
 @media screen and (max-width: 576px){
-.conteiner{
-display:flex;
-flex-direction: column;
-max-width: 100%;
-min-width: auto;
-max-height: initial;
+    .container{
+        display:flex;
+        flex-direction: column;
+        max-width: 100%;
+        min-width: auto;
+        max-height: initial;
+    }
 
+    .left{
+        display:flex;
+        flex-direction: column;
+    }
 
+    .right{
+        display: flex;
+        flex-direction: column;
+    }
 
+    .middlle{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-general{
+        display:flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    html{
+        height: auto;
+    }
+
+    body{
+        height: auto;
+    }
+
+    form{
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 90%;
+        min-height: 50px;    
+    }
+
+    .form-control{
+        min-height:50px ;
+    }
+
+    .btn-info{
+        min-width:80px;
+        min-height: 50px;
+    }
+
+    img.bi.bi-binoculars{
+        min-width:30px;
+    }
+
+    .form-control{
+        font-size: 25px;
+    }
+
+    .flex-1{
+        display: flex;
+        order: 1;
+    }
+
+    .flex-2{
+        display: flex;
+        order: 3;
+    }
+
+    .flex-3{
+        display: flex;
+        order: 2;
+    }
+
+    .flex-4{
+        display: flex;
+        order: 4;
+    }
+
+    .flex-5{
+        display: flex;
+        margin-bottom: 15px;
+        order: 5;
+    }
 }
-.levo{
-    display:flex;
-    flex-direction: column;
-
-}
-.pravo{
-    display: flex;
-    flex-direction: column;
-}
-.seredina{
-    display: flex;
-    flex-direction: column;
-}
-.flexxx-obshii{
-    display:flex;
-    flex-direction: column;
-    margin-top: 15px;
-}
-html{
-height: auto;
-}
-body{
-    height: auto;
-}
-form{
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 90%;
-    min-height: 50px;
-    
-}
-.form-control{
-min-height:50px ;
-}
-.btn-info{
-    min-width:80px;
-    min-height: 50px;
-}
-
-img.bi.bi-binoculars{
-    min-width:30px;
-
-}
-.form-control{
-font-size: 25px;
-}
-.flexxx-1{
-    display: flex;
-order: 1;
-}
-
-.flexxx-2{
-    display: flex;
-order: 3;
-}
-.flexxx-3{
-    display: flex;
-    order: 2;
-
-}
-.flexxx-4{
-    display: flex;
-order: 4;
-}
-.flexxx-5{
-    display: flex;
-    margin-bottom: 15px;
-    order: 5;
-}
-
-
-
-
-
-}
-/*  */
-
-    /* https://code.mu/ru/markup/manual/css/property/background-size/ */
-
-        
-/* https://code.mu/ru/markup/manual/css/property/background-image/ */
-
-/* https://developer.mozilla.org/ru/docs/Web/CSS/background-image */
-
-
-
