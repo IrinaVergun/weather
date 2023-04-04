@@ -130,6 +130,7 @@ body{
 img{
     max-width: 40%;
     min-width: 40%;
+
 }
 .flexxx-obshii{
     display:flex;
@@ -145,6 +146,12 @@ img{
     
 
 }
+
+img.bi.bi-binoculars{
+    min-width: 15px;
+    margin-bottom: 4px;
+}
+
 @media screen and (max-width: 576px){
 .conteiner{
 display:flex;
